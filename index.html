@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კრედო ბანკი | Credo Bank</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    
+    
+</head>
+
+<body>
+    
+    <nav>
+
+        <!--ლოგოზე დაჭერისას უნდა ხდებოდეს მთავარ გვერდზე დაბრუნება-->
+        <div class="logo"><img src="logo-ka_751c340a.svg" alt=""></div>
+        <ul class="navbar">
+
+            <!--ტელეფონის ნომერზე დაჭერისას ავტომატურად უნდა ხდებოდეს დარეკვა-->
+          <li><i class="fa-solid fa-phone"></i><a href="#call">+99532 242 42 42</a></li>
+
+          <!--უნდა დაემატოს ფეიჯი სადაც იქნება ფილიალების მისამართების ჩამონათვალი
+        თითოეულს უნდა დაემატოს რუკას ჩვენების ფუნქცია და მიეთითოს სამუშაო საათები-->
+          <li><i class="fa-solid fa-location-dot"></i><a href="#adress">მისამართები</a></li>
+
+          <!--კონტაქტების მხარეს უნდა დაემატოს მომხმარებლის მიერ შესავსები პირადი მონაცემების
+        ველები (სახელი, გვარი, ელ-ფოსტა) და ტექსტის ასაკრეფი ინფუთი -->
+          <li><i class="fa-regular fa-envelope"></i><a href="#contact" >კონტაქტი</a></li>
+        </ul>
+
+        <!--აქ მომხმარებელი ირჩევს ფიზიკური ან იურიდიული პირებისთვის და, შესაბამისად, 
+            ვამისამართებთ ინტერნეტბანკში-->
+        <div class="container" ><i class="fa-solid fa-lock"></i>
+            <select name="" id="">
+                <option value="">ინტერნეტბანკი</option>
+                <option value="">ფიზიკური პირი</option>
+                <option value="">იურიდიული პირი</option>
+            </select>
+        </div>
+        
+    </nav>
+    <div class="header">
+
+        <div class="about">
+            <select name="" id="">
+                <option value="">კრედოს შესახებ</option>
+                <option value="">მისია და ფასეულობები</option>
+                <option value="">მფლობელები</option>
+                <option value="">სამეთვალყურეო საბჭო</option>
+                <option value="">მენეჯმენტის გუნდი</option>
+                <option value="">ფინანსური მაჩვენებლები</option>
+                <option value="">სოციალური პასუხისმგებლობა</option>
+                <option value="">ისტორია</option>
+                <option value="">მედია ოთახი</option>
+                <option value="">აქციონერთა საერთო კრება</option>
+            </select>
+        </div>
+        <div class="citizens">
+            <select name="" id="">
+                <!--ფიზიკური პირების გრაფაში უნდა ჩამოიშალოს ქვემოთ ჩამოთვლილი 
+                    სია და თითეული ასვე უნდა ჩაიშალოს შესაბამისად-->
+                <option value="">ფიზიკური პირები</option>
+                
+                <!--სესხების გრაფაში ვამატებთ ჩამონათვალს შემდეგი თანმიმდევრობით : 
+                    საკრედიტო ბარათი VISA
+                    ბიზნეს სესხი
+                    სამომხმარებლო სესხი
+                    სესხი ონლაინ
+                    სესხი საკრედიტო ისტორიის გასაუმჯობესებლად
+                    სახელფასო ოვერდრაფტი
+                    იპოთეკური სესხი
+                    სტუდენტური სესხი
+                    ანაბრით უზრუნველყოფილი სესხი
+                    ავტო სესხი
+                    ავტო ლომბარდი
+                    აგრო სესხი
+                    შეღავათიანი აგროკრედიტი
+                    ტურისტული სესხი
+                    რე-სტარტ სესხი
+                    ფულადი გზავნილით უზრუნველყოფილი სესხი-->
+                <option value="">სესხები</option>
+
+                <!--განვადების გრაფა :
+                    სამომხმარებლო განვადება
+                    აგრო განვადება
+                    იაფი აგრო განვადება
+                    ონლაინ განვადება
+                    ონლაინ აგრო განვადება-->
+                <option value="">განვადება</option>
+
+                <!--ბარათები :
+                    ციფრული ბარათი
+                    VISA პლატინუმ ბარათი
+                    კრედო უნივერსალი MasterCard ბარათი
+                    სადებეტო Mastercard ბარათი - ემიგრანტებისთვის
+                    სადებეტო ბარათი MasterCard
+                    უსახელო სადებეტო ბარათი MasterCard
+                    მოსავლის ბარათი
+                    საკრედიტო ბარათი VISA
+                    საბანკო ბარათის უსაფრთხოების წესები
+                    კონვერტაციის სქემა-->
+                <option value="">ბარათები</option>
+
+                <!--დაზღვევა : 
+                    მოსავლის დაზღვევა
+                    მსხვილფეხა რქოსანი პირუტყვის დაზღვევა
+                    ქონების დაზღვევა
+                    ავტო-დაზღვევის პაკეტები (CASCO / TPL)
+                    დაზღვევა და მეტი
+                    ჯანმრთელობის დაზღვევა - საერთო
+                    ჯანმრთელობის დაზღვევა - საერთო +
+                    ჯანმრთელობის დაზღვევა - PULS-->
+                <option value="">დაზღვევა</option>
+
+                <!--სტარტ-აპ სესხები :
+                    მარტივი START-UP სესხი
+                    სტარტ-აპ ბიზნეს სესხი
+                    ტურისტული სტარტ-აპ ბიზნეს სესხი
+                -->
+                <option value="">სტარტ-აპ სესხები</option>
+
+                <!--
+                    საერთაშორისო გზავნილები
+                    ლოკალური გზავნილები-->
+                <option value="">ფულადი გზავნილები</option>
+
+                <!--ანაბრები :
+                    ვადიანი ანაბარი
+                    ზრდადი ანაბარი
+                    მიზნობრივი ანაბარი
+                    მოთხოვნამდე ანაბარი
+                    საბავშვო ანაბარი
+                    კლებადი Smart ანაბარი
+                    ერთობლივი ანაბარი
+                    სადეპოზიტო სერტიფიკატი
+                    ანაბრების განაკვეთების არქივი-->
+                <option value="">ანაბრები</option>
+
+                <!--მიმდინარე ანგარიში-->
+                <option value="">ანგარიშები</option>
+
+                <!--კომბინირებული შეთავაზებები-->
+                <option value="">აქციები</option>
+
+                <!--ვიდეო ბანკინგი ემიგრანტებისთვის
+                    საერთაშორისო გადარიცხვები
+                    ექსპატებისთვის
+                    კრედო უნივერსალი
+                    Mycredo - ინტერნეტ და მობაილ ბანკი ფიზიკური პირებისთვის
+                    საბანკო სერვისები ემიგრანტებისთვის
+                    ავტო ლომბარდი
+                    ბინოთეკა
+                    ციფრული კუთხე
+                    Mycredo Terminal
+                    Pay Box - ჩასარიცხი აპარატი
+                    Apple Pay
+                    Google Pay Mastercard
+                    Google Pay Visa
+                    ATM / ბანკომატი-->
+                <option value="">სერვისები</option>
+                
+            </select>
+        </div>
+        <div class="business">
+            <select name="" id="">
+                <option value="">ბიზნესი</option>
+
+                <!--ბიზნეს სესხი
+                    ბიზნეს ოვერდრაფტი
+                    სტარტ-აპ ბიზნეს სესხი
+                    საბანკო გარანტია
+                    ტურისტული სესხი
+                    ტურისტული სტარტ-აპ ბიზნეს სესხი
+                    აგრო სესხი
+                    შეღავათიანი აგროკრედიტი
+                    ავტო სესხი
+                    რე-სტარტ სესხი
+                    სესხი საკრედიტო ისტორიის გასაუმჯობესებლად-->
+                <option value="">სესხები</option>
+
+                <!--აგრო განვადება
+                    იაფი აგრო განვადება
+                    განვადება მერჩანტებისთვის-->
+                <option value="">განვადება</option>
+
+                <!--მოსავლის ბარათი
+                    ბიზნეს VISA ბარათი
+                    საბანკო ბარათის უსაფრთხოების წესები-->
+                <option value="">ბარათები</option>
+
+                <!--მოსავლის დაზღვევა
+                    მსხვილფეხა რქოსანი პირუტყვის დაზღვევა
+                    ქონების დაზღვევა
+                    ავტო-დაზღვევის პაკეტები (CASCO / TPL)-->
+                <option value="">დაზღვევა</option>
+
+                <!--ვადიანი ანაბარი
+                    ზრდადი ანაბარი
+                    მოთხოვნამდე ანაბარი
+                    კლებადი Smart ანაბარი
+                    სადეპოზიტო სერტიფიკატი
+                    ანაბრების განაკვეთების არქივი-->
+                <option value="">ანაბრები</option>
+
+                <!--მიმდინარე ანგარიში
+                    ნომინალური მფლობელობის ანგარიში-->
+                <option value="">ანგარიშები</option>
+
+                <!--Mycredo Terminal
+                    სახელფასო მომსახურება
+                    E-mail Banking
+                    Business.mycredo.ge - ინტერნეტ ბანკი იურიდიული პირებისთვის
+                    POS ტერმინალი
+                    Pay Box - ჩასარიცხი აპარატი-->
+                <option value="">სერვისები</option>
+
+                <!--კომბინირებული შეთავაზებები-->
+                <option value="">აქციები</option>
+            </select>
+        </div>
+        <!--აქედან გადავდივართ რჩეულის ფეიჯზე-->
+        <div class="rcheuli"><a href="rcheuli">კრედო რჩეული</a></div>
+        <div class="career">
+            <select name="" id="">
+                
+                <option value="">კარიერა</option>
+                <option value="">კრედო აკადემია</option>
+                <option value="">ბენეფიტები და სამუშაო გარემო</option>
+                <option value="">სამსახურში აყვანის პროცესი</option>
+                <option value="">მიმდინარე ვაკანსიები</option>
+            </select>
+        </div>
+    </div>
+    <div class="image"><img src="MicrosoftTeams-image-57.png" alt=""></div>
+    <div class="main">
+        
+        <div class="loan">
+            <img src="swrafi-sesxi.png" alt="">
+            <h4>სესხი ონლაინ</h4>
+        </div>
+        <div class="anabari">
+            <img src="anabari.png" alt="">
+            <h4>ანაბარი</h4>
+        </div>
+        <div class="baratebi">
+            <img src="baratebi.png" alt="">
+            <h4>ბარათები</h4>
+        </div>
+        <div class="fuladi-gzavnilebi">
+            <img src="fuladi-gzavnilebi.png" alt="">
+            <h4>ფულადი გზავნილები</h4>
+        </div>
+        <div class="dazgveva"><img src="dazgveva.png" alt=""><h4>დაზღვევა</h4></div>
+    </div>
+    <div class="slide-bar">
+
+        <!--ამ გრაფაში მოთავსდება შეთავაზებები ემიგრანტებისთვის-->
+        <div class="offer"><h1>Place for special offer</h1></div>
+        
+        <!--აქ უნდა გაკეთდეს სლაიდები სადაც გამოჩნდება ინფორმაცია 
+            მიმიდინარე აქციების და შეთავაზებების შესახებ-->
+        <div class="slides"><h1>სიახლეებისა და შეთავაზებების ადგილი</h1></div>
+    </div>
+    <div class="help">
+        <h3>გესაჭიროებათ დახმარება? დაგვირეკეთ *4242 ან მოგვწერეთ ნებისმიერ დროს</h3> 
+        <div class="text">მოგვმართეთ თქვენთვის მოსახერხებელი გზით - 
+            დაგვიკავშირდით ცხელი ხაზის ნომერზე - (+995 32) 242 42 42, 
+            მოგვწერეთ ონლაინ ჩატში ან დაგვიტოვეთ თქვენი 
+            საკონტაქტო ნომერი და ჩვენ თავად დაგიკავშირდებით.</div>
+        <div class="main-buttons">
+            <div class="button-1"><i class="fa-solid fa-location-dot"></i>მისამართები </div>
+            <div class="button-2"><i class="fa-brands fa-rocketchat"></i>მოგვწერეთ</div>
+            <div class="button-3"><i class="fa-solid fa-comment-dots"></i>დაგვიტოვეთ კომენტარი</div>
+        </div>
+    </div>
+    <div class="context">
+
+        <!--ამ დივში უნდა გამოჩნდეს ინფორმაცია მიმდინარე სიახლეების შესახებ-->
+        <div class="media"><h3>მედია ოთახი</h3></div>
+        <div class="valuta"><h3>ვალუტის კურსი</h3></div>
+    </div>
+    <div class="box"> 
+        <div class="box-1"></div>
+        <div class="box-2">
+            <div class="drop">
+                <select name="" id="">
+                    <option value="">კრედო ბანკის კომერციული კურსი</option>
+                    <option value="">ინტერნეტ ბანკის და გზავნილის კურსი</option>
+                    <option value="">ავტომატური ოპერაციების კურსი</option>
+                    <option value="">საბარათე ოპერაციების კურსი</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <!--დაკლიკვისას აბრუნებს საწყის გვერდზე-->
+        <img src="logo-ka_751c340a.svg" alt="">
+        <ul>
+            <li>საიტის რუკა</li>
+            <li>პირობები და ტარიფები</li>
+            <li>SMS განაცხადით სარგებლობის ინსტუქცია</li>
+            <li>მომხმარებელთა დაცვა</li>
+        </ul>
+        <ul>
+            <li>ხშირად დასმული კითხვები</li>
+            <li>როგორ ვისარგებლოთ კრედო ბანკის მომსახურებით</li>
+            <li>მისამართები</li>
+            <li>კონტაქტი
+                <a href="https://www.facebook.com/CredoBank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/credo-bank/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC2Y_pR9O5bmlCiFGfoX5bmw">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/credobank/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="lastdiv">
+        <span>2023 კრედო ბანკი</span>
+        <ul>
+            <li>როგორ ვისარგებლოთ კრედო ბანკის მომსახურებით</li>
+            <li>|</li>
+            <li>მომხმარებელთა დაცვა</li>
+            <li>|</li>
+            <li>პირობები და ტარიფები</li>
+        </ul>
+    </div>
+    <!--ჩამოსქროლვისას ნავბარი უნდა რჩებოდეს თავის ადგილზე-->
+    <!--შესაცვლელია font-family-->
+    <!--ზოგიერთი დეტალი არის გასასტილი და დასახვეწი-->
+</body>
+</html>
+
+
